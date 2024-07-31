@@ -6,6 +6,7 @@ package fr.digi.m052024;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.ResourceBundle;
 
 public class App {
     // Informations de connexion
@@ -41,7 +42,7 @@ public class App {
                 }
             } catch (SQLException e) {
                 e.printStackTrace();
-                System.out.println("Erreur lors de la fermeture de la connexion !");
+                System.out.println("Erreur lors de la fermeture !");
             }
         }
     }

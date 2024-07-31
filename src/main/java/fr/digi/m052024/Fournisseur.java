@@ -29,6 +29,9 @@ public class Fournisseur {
 
     @Override
     public String toString() {
-        return "Fournisseur [id=" + id + ", nom=" + nom + "]";
+        return "Fournisseur {" +
+                "id=" + id +
+                ", nom='" + nom + '\'' +
+                '}';
     }
 }
